@@ -69,7 +69,7 @@ try:
                 running = False
             if event.type == pygame.MOUSEBUTTONDOWN:
                 if (sound.play()): # Press any button to stop the alarm sound. Otherwise, it willnot stop until reach the end of the song
-                    if event.button == 1: # 1 is the sign/signal of left mouse click
+                    if event.button == 1: 
                         if (100 < mouseX < 150) and (50 < mouseY < 100):
                             totalSeconds += 60
                             print("press '+' minutes")
@@ -128,7 +128,7 @@ try:
         if (total != 0):
             pygame.draw.rect(screen, RED, (60, 530, int(380 * (totalSeconds / total)), 30))
 
-        pygame.display.flip() # Need this line to show the grey background, otherwise it is completed dark background
+        pygame.display.flip() 
 
     pygame.quit()
 
