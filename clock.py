@@ -1,3 +1,4 @@
+# @author: Vy Nguyen
 try:
     import pygame
     from pygame import mixer
