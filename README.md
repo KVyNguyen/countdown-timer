@@ -4,7 +4,7 @@ This is a small personal project that I created mainly just to applied the self-
 * Note: Press any button to stop the alarm sound. Otherwise, it will not stop until reaching the end of the sound file.
 
 # Demo
-* Note: Demo does not have sound effect
+* Note: Unfortunately, the demo does not have sound effect
 ![](demo.gif)
 
 
